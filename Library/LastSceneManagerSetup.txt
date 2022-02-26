@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/RecipeScene.unity
+=======
+- path: Assets/Scenes/GameScene1.unity
+>>>>>>> b8cfb863d0290b2d6548c724e79a7a161de03a90
   isLoaded: 1
   isActive: 1
   isSubScene: 0
