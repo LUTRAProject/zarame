@@ -9,9 +9,9 @@ public class RandomRecipe : MonoBehaviour
     public static Text recipetext;
     public static Text recipetext1;
     public static Text recipetext2;
-    int a;
-    int b;
-    int c;
+    public static int a;
+    public static int b;
+    public static int c;
 
     void Start()
     {
