@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 51554472}
   - component: {fileID: 51554474}
   - component: {fileID: 51554473}
+  - component: {fileID: 51554475}
   m_Layer: 5
   m_Name: MapRecipeText2
   m_TagString: Untagged
@@ -202,6 +203,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51554471}
   m_CullTransparentMesh: 1
+--- !u!114 &51554475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51554471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd97168f3643d514891c6d236024af4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &244988959
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,6 +732,7 @@ GameObject:
   - component: {fileID: 612592078}
   - component: {fileID: 612592080}
   - component: {fileID: 612592079}
+  - component: {fileID: 612592081}
   m_Layer: 5
   m_Name: MapRecipeText1
   m_TagString: Untagged
@@ -787,6 +801,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612592077}
   m_CullTransparentMesh: 1
+--- !u!114 &612592081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612592077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd97168f3643d514891c6d236024af4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &651222966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,6 +1199,7 @@ GameObject:
   - component: {fileID: 1284544572}
   - component: {fileID: 1284544574}
   - component: {fileID: 1284544573}
+  - component: {fileID: 1284544575}
   m_Layer: 5
   m_Name: MapRecipeText
   m_TagString: Untagged
@@ -1241,6 +1268,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284544571}
   m_CullTransparentMesh: 1
+--- !u!114 &1284544575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284544571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd97168f3643d514891c6d236024af4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1298612739
 GameObject:
   m_ObjectHideFlags: 0

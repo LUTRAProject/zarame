@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,11 +9,12 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Debug.Log(RandomRecipe.recipetext.text);
-        Debug.Log(RandomRecipe.recipetext1);
-        Debug.Log(RandomRecipe.recipetext2);
+        Debug.Log(RandomRecipe.recipetext1.text);
+        Debug.Log(RandomRecipe.recipetext2.text);
         Debug.Log(RandomRecipe.a);
         Debug.Log(RandomRecipe.b);
         Debug.Log(RandomRecipe.c);
+        
     }
 
     // Update is called once per frame
