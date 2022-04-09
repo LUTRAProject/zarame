@@ -54,10 +54,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/RandomText.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/StartStateManager.cs" />
+    <Compile Include="Assets/Scripts/TestMac.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/Card.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/GameStateController.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/TimerManager.cs" />
     <Compile Include="Assets/Scripts/RandomRecipe.cs" />
     <Compile Include="Assets/Scripts/RecipeMapText.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/ResultStateManager.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/GameSceneManager.cs" />
     <Compile Include="Assets/Scripts/ChangeScene.cs" />
-    <Compile Include="Assets/Scripts/TestMac.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/CardCreateManager.cs" />
+    <Compile Include="Assets/Scenes/GameManager.cs" />
+    <Compile Include="Assets/Scripts/MemoryGame/EGameState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -281,6 +290,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -728,6 +740,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{84E8DB61-69E8-4527-1026-81CD852809E1}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
